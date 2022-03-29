@@ -10,7 +10,7 @@
       ![image1](https://user-images.githubusercontent.com/96859526/160506845-502f2e15-2d5c-44c3-90d5-b21e57ef7acb.png)
   
   * Window & GPU 정보에 맞춰서 Driver Download
-    * [Driver Download] (https://www.nvidia.co.kr/Download/index.aspx?lang=kr)
+    * [Driver Download](https://www.nvidia.co.kr/Download/index.aspx?lang=kr)
    
   * GPU Driver 설치 
     * 기본 설정으로 설치 후 확인하기
@@ -21,10 +21,18 @@
     * ![Untitled1](https://user-images.githubusercontent.com/96859526/160507337-16755341-300e-4f80-9b80-a267112f9052.png)
 
   * CUDA 버전 11.4에 맞춰서 Toolkit 설치하
-     * [Toolkit Download] (https://developer.nvidia.com/cuda-11-4-4-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local) 
+     * [Toolkit Download](https://developer.nvidia.com/cuda-11-4-4-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local) 
      * 11.4~ 모든 버전이 가능하지만 11.44버전으로 설치. Window11로 업그레이드하고 설치 방법에 대해서는 차이가 있다. 
      * ![Untitled3](https://user-images.githubusercontent.com/96859526/160507897-e1bc7d2c-9331-4074-a9ec-271dc5dd9035.png)
   * cuDNN 설치
     * cuDNN 설치하기 위해서 Nvidia 가입하기
+    
+    * [Join Nvidia](https://developer.nvidia.com/cudnn)
+    * Tensorflow-gpu와 호환되는 cuDNN 버전 확인하기
+    * [Version](https://www.tensorflow.org/install/source_windows#tested_build_configurations)
+    * Window11과 GPU에 맞는 cuDNN과 호환되는 Tensorflow-gpu가 없다. 
+  * 기존 Window11 업데이트 이전인 Window10의 Driver, Toolkit, cuDNN 설치하기 
+    * [Driver Download](https://www.nvidia.co.kr/Download/index.aspx?lang=kr)
+    * [Toolkit Download](https://developer.nvidia.com/cuda-11.2.0-download-archive) 11.2
+    * [cuDNN Download](https://developer.nvidia.com/rdp/cudnn-archive) 8.1.1
     * 
-    * [Join Nvidia] (https://developer.nvidia.com/cudnn)
