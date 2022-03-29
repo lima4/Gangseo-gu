@@ -71,6 +71,7 @@
       print(device_lib.list_local_devices())
       ```
 * GeoPands 및 Folium 설치하기
+
   * GeoPands는 정해진 순서 및 버전에 맞춰서 꼭 진행을 해야 GeoPandas 설치시 Error가 발생하지 않는다.
     * [GeoPandas Install Document](https://geopandas.org/en/stable/getting_started/install.html)
     * 필수 패키지
@@ -88,6 +89,7 @@
       * 가상환경 Activate하고 사용할 Directory에 다운로드 받은 파일 옮기기 
     * 가장 중요한점!!!!!!!
       * Geopandas 설치를 위해서 순서가 가장 중요하다 .
+      
         * ```c
           pip install pyproj
           pip install Shapely-1.8.1.post1-cp37-cp37m-win_amd64.whl
